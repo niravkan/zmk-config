@@ -12,7 +12,10 @@
 #define LOWER    1
 #define RAISE    2
 #define ALTER    3
-
+&mt {
+    tapping-term-ms = <250>;
+    flavor = "tap-prefered";
+  };
 / {
     keymap {
         compatible = "zmk,keymap";
