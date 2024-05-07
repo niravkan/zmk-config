@@ -14,7 +14,7 @@
 #define ALTER    3
 &mt {
     tapping-term-ms = <250>;
-    flavor = "tap-preferred";
+    flavor = "balanced";
   };
 / {
     keymap {
