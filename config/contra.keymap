@@ -15,6 +15,7 @@
 &mt {
     tapping-term-ms = <250>;
     flavor = "balanced";
+    quick-tap-ms = <50>;
   };
 / {
     keymap {
