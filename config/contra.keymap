@@ -23,37 +23,37 @@
 
         default_layer {
             bindings = <
-    &trans    &kp Q         &kp W         &kp E             &kp R         &kp T     &kp Y       &kp U         &kp I           &kp O         &kp P             &trans
-    &trans    &mt LSHFT A   &mt LCTRL S   &mt LALT D        &mt LGUI F    &kp G     &kp H       &mt RGUI J    &mt RALT K      &mt RCTRL L   &mt RSHFT SEMI    &trans
-    &trans    &kp Z         &kp X         &kp C             &kp V         &kp B     &kp N       &kp M         &kp COMMA       &kp DOT       &kp FSLH          &trans
-    &trans    &trans        &trans        &lt LOWER CAPS    &kp ESC       &kp RET   &kp SPACE   &kp BSPC      &lt RAISE TAB   &trans        &trans            &trans
+    &kp Q         &kp W         &kp E             &kp R             &kp T     &trans    &trans      &kp Y         &kp U           &kp I         &kp O             &kp P
+    &mt LSHFT A   &mt LCTRL S   &mt LALT D        &mt LGUI F        &kp G     &trans    &trans      &kp H         &mt RGUI J      &mt RALT K    &mt RCTRL L       &mt RSHFT SEMI
+    &kp Z         &kp X         &kp C             &kp V             &kp B     &trans    &trans      &kp N         &kp M           &kp COMMA     &kp DOT           &kp FSLH
+    &trans        &trans        &trans            &lt LOWER CAPS    &kp ESC   &kp RET   &kp SPACE   &kp BSPC      &lt RAISE TAB   &trans        &trans            &trans
             >;
         };
 
         lower {
             bindings = <
-    &trans    &kp N1    &kp N2    &kp N3    &kp N4    &kp N5    &kp N6      &kp N7      &kp N8      &kp N9      &kp N0    &trans
-    &trans    &trans    &trans    &trans    &trans    &trans    &kp LEFT    &kp DOWN    &kp UP      &kp RIGHT   &trans    &trans
-    &trans    &trans    &trans    &trans    &trans    &trans    &trans      &trans      &trans      &trans      &trans    &trans
-    &trans    &trans    &trans    &trans    &kp ESC   &kp RET   &kp SPACE   &kp BSPC    &mo ALTER   &trans      &trans    &trans
+    &kp N1    &kp N2    &kp N3    &kp N4    &kp N5    &trans    &trans      &kp N6      &kp N7      &kp N8      &kp N9      &kp N0
+    &trans    &trans    &trans    &trans    &trans    &trans    &trans      &kp LEFT    &kp DOWN    &kp UP      &kp RIGHT   &trans
+    &trans    &trans    &trans    &trans    &trans    &trans    &trans      &trans      &trans      &trans      &trans      &trans
+    &trans    &trans    &trans    &trans    &kp ESC   &kp RET   &kp SPACE   &kp BSPC    &mo ALTER   &trans      &trans      &trans
             >;
         };
 
         raise {
             bindings = <
-    &trans    &kp EXCL    &kp AT      &kp HASH    &kp DLLR    &kp PRCNT   &kp CARET   &kp AMPS    &kp ASTRK   &kp LPAR    &kp RPAR    &trans
-    &trans    &kp GRAVE   &kp BSLH    &kp LBRC    &kp RBRC    &kp QMARK   &kp MINUS   &kp EQUAL   &kp LBKT    &kp RBKT    &kp SQT     &trans
-    &trans    &kp TILDE   &kp PIPE    &trans      &trans      &trans      &kp UNDER   &kp PLUS    &kp LT      &kp GT      &kp DQT     &trans
-    &trans    &trans      &trans      &mo ALTER   &kp ESC     &kp RET     &kp SPACE   &kp BSPC    &trans      &trans      &trans      &trans
+    &kp EXCL    &kp AT      &kp HASH    &kp DLLR    &kp PRCNT   &trans      &trans      &kp CARET   &kp AMPS    &kp ASTRK   &kp LPAR    &kp RPAR
+    &kp GRAVE   &kp BSLH    &kp LBRC    &kp RBRC    &kp QMARK   &trans      &trans      &kp MINUS   &kp EQUAL   &kp LBKT    &kp RBKT    &kp SQT
+    &kp TILDE   &kp PIPE    &trans      &trans      &trans      &trans      &trans      &kp UNDER   &kp PLUS    &kp LT      &kp GT      &kp DQT
+    &trans      &trans      &trans      &mo ALTER   &kp ESC     &kp RET     &kp SPACE   &kp BSPC    &trans      &trans      &trans      &trans
             >;
         };
 
         alter {
             bindings = <
-    &trans    &kp C_BRI_DN    &kp C_BRI_UP    &kp C_VOL_DN    &kp C_MUTE    &kp C_VOL_UP    &trans      &kp C_PREV    &kp C_PP    &kp C_NEXT    &trans    &trans
-    &trans    &trans          &trans          &trans          &trans        &trans          &trans      &trans        &trans      &trans        &trans    &trans
-    &trans    &trans          &trans          &trans          &trans        &trans          &trans      &trans        &trans      &trans        &trans    &trans
-    &trans    &trans          &trans          &trans          &kp ESC       &kp RET         &kp SPACE   &kp BSPC      &trans      &trans        &trans    &trans
+    &kp C_BRI_DN    &kp C_BRI_UP    &kp C_VOL_DN    &kp C_MUTE    &kp C_VOL_UP   &trans     &trans      &kp C_PREV    &kp C_PP    &kp C_NEXT    &trans    &trans
+    &trans          &trans          &trans          &trans        &trans         &trans     &trans      &trans        &trans      &trans        &trans    &trans
+    &trans          &trans          &trans          &trans        &trans         &trans     &trans      &trans        &trans      &trans        &trans    &trans
+    &trans          &trans          &trans          &trans        &kp ESC        &kp RET    &kp SPACE   &kp BSPC      &trans      &trans        &trans    &trans
             >;
         };
     };
