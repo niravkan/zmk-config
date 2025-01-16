@@ -26,7 +26,7 @@
     &kp Q         &kp W         &kp E             &kp R             &kp T     &trans    &trans      &kp Y         &kp U           &kp I           &kp O         &kp P
     &mt LSHFT A   &mt LCTRL S   &mt LALT D        &mt LGUI F        &kp G     &trans    &trans      &kp H         &mt RGUI J      &mt RALT K      &mt RCTRL L   &mt RSHFT SEMI
     &kp Z         &kp X         &kp C             &kp V             &kp B     &trans    &trans      &kp N         &kp M           &kp COMMA       &kp DOT       &kp FSLH
-    &trans        &trans        &lt LOWER CLCK    &kp ESC           &kp RET   &lt CAPSLOCK  &trans      &kp SPACE     &kp BSPC        &lt RAISE TAB   &trans        &trans
+    &trans        &trans        &lt LOWER CAPSLOCK    &kp ESC           &kp RET   &trans    &trans      &kp SPACE     &kp BSPC        &lt RAISE TAB   &trans        &trans
             >;
         };
 
