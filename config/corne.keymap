@@ -35,11 +35,10 @@
             key-positions = <14 21>;
             bindings = <&caps_word>;
         };
-        combo_tab {
+        combo_tab_thumbs {
             timeout-ms = <50>;
-            key-positions = <1 2>;          // Q + W
-            require-prior-idle-ms = <150>;  // remove if your ZMK version rejects it
-            bindings = <&kp TAB>;
+            key-positions = <37 40>;        // Esc + Bksp (both middle thumbs)
+            bindings = <&kp TAB>;           // no require-prior-idle: Tab must work right after typing
         };
     };
 
@@ -62,7 +61,7 @@
             bindings = <
    &none &kp Q        &kp W       &kp E       &kp R       &kp T        &kp Y  &kp U       &kp I       &kp O        &kp P          &none
    &none &mt LSHFT A  &mt LCTRL S &mt LALT D  &mt LGUI F  &kp G        &kp H  &mt RGUI J  &mt RALT K  &mt RCTRL L  &mt RSHFT SEMI &none
-   &none &kp Z        &kp X       &kp C       &kp V       &kp B        &kp N  &kp M       &kp COMMA   &kp DOT      &kp FSLH       &kp SQT
+   &none &kp Z        &kp X       &kp C       &kp V       &kp B        &kp N  &kp M       &kp COMMA   &kp DOT      &kp FSLH       &none
                        &none &lt NUMNAV ESC &lt SYM RET        &lt SYM SPACE &lt NUMNAV BSPC &none
             >;
         };
@@ -71,7 +70,7 @@
             bindings = <
    &none &kp ASTRK        &kp N7        &kp N8       &kp N9       &kp FSLH     &kp HOME  &kp PG_DN &kp PG_UP &kp END   &kp DEL &none
    &none &mt LSHFT MINUS  &mt LCTRL N4  &mt LALT N5  &mt LGUI N6  &kp PLUS     &kp LEFT  &kp DOWN  &kp UP    &kp RIGHT &trans  &none
-   &none &kp BSPC         &kp N1        &kp N2       &kp N3       &kp EQUAL    &kp N0    &kp DOT   &trans    &trans    &tog NUMLOCK &none
+   &none &kp N0           &kp N1        &kp N2       &kp N3       &kp EQUAL    &kp BSPC  &kp DOT   &trans    &trans    &tog NUMLOCK &none
                        &none &lt NUMNAV ESC &lt SYM RET        &lt SYM SPACE &lt NUMNAV BSPC &none
             >;
         };
@@ -82,16 +81,16 @@
             bindings = <
    &none &kp ASTRK        &kp N7        &kp N8       &kp N9       &kp FSLH     &kp HOME  &kp PG_DN &kp PG_UP &kp END   &kp DEL &none
    &none &mt LSHFT MINUS  &mt LCTRL N4  &mt LALT N5  &mt LGUI N6  &kp PLUS     &kp LEFT  &kp DOWN  &kp UP    &kp RIGHT &trans  &none
-   &none &kp BSPC         &kp N1        &kp N2       &kp N3       &kp EQUAL    &kp N0    &kp DOT   &trans    &trans    &tog NUMLOCK &none
+   &none &kp N0           &kp N1        &kp N2       &kp N3       &kp EQUAL    &kp BSPC  &kp DOT   &trans    &trans    &tog NUMLOCK &none
                        &none &lt NUMNAV ESC &lt SYM RET        &lt SYM SPACE &lt NUMNAV BSPC &none
             >;
         };
 
         sym {
             bindings = <
-   &none  &kp PRCNT  &kp CARET &kp AMPS  &kp DLLR  &none         &none     &kp COLON &kp ASTRK &kp LBKT  &kp RBKT &none
-   &none  &kp GRAVE  &kp BSLH  &kp LBRC  &kp RBRC  &kp QMARK     &kp MINUS &kp EQUAL &kp LPAR  &kp RPAR  &kp SQT  &none
-   &none  &kp TILDE  &kp PIPE  &kp EXCL  &kp AT    &kp HASH      &kp UNDER &kp PLUS  &kp LT    &kp GT    &kp DQT  &none
+   &none  &kp GRAVE  &kp AT    &kp HASH  &kp PRCNT &kp TILDE     &kp CARET &kp DLLR  &kp LBKT  &kp RBKT  &kp AMPS &none
+   &none  &kp EXCL   &kp ASTRK &kp LBRC  &kp RBRC  &kp PIPE      &kp MINUS &kp EQUAL &kp LPAR  &kp RPAR  &kp SQT  &none
+   &none  &kp BSLH   &none     &none     &none     &none         &kp UNDER &kp PLUS  &kp LT    &kp GT    &kp DQT  &none
                        &none &lt NUMNAV ESC &lt SYM RET        &lt SYM SPACE &lt NUMNAV BSPC &none
             >;
         };
